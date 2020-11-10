@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.switch{
+    display: flex;
+    background-image: url("home-page/img/slider-img.svg");
+    height: 800px;
+    width: auto;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.switch-button,
+.switch-on {
+    margin-left: 5px;
+}
+
+.switch-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #c7c7c7;
+
+}
+
+.switch-on {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #212121;
+}
