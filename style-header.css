@@ -16,7 +16,7 @@
     display: flex;
     margin-left: auto;
     width: 50%;
-}
+    }
 
 .logo {
     width: 185px;
@@ -26,13 +26,13 @@
     padding: 0 10px;
     letter-spacing: 1px;
     font-weight: bolder;
+    border: 3px solid transparent;
 }
 
 .navigation-button:hover {
     color: #212121;
     font-weight: 900;
     border-bottom: 3px solid #212121;
-    padding-bottom: 5px;
 }
 
 a {
@@ -46,6 +46,7 @@ a {
     width: 18px;
     height: 18px;
     position: relative;
+
 }
 
 .search::after,

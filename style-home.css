@@ -1,20 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 * {
     box-sizing: border-box;
 }
 
-.switch{
-    display: flex;
-    background-image: url("home-page/img/slider-img.svg");
+.switch {
     height: 800px;
     width: auto;
-    justify-content: center;
-    align-items: flex-end;
-
+    background-image: url("home-page/img/slider-img.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.switch-text {
+    height: 720px;
+    padding-left: 98px;
+    padding-top: 370px;
 }
 
-.switch-button,
-.switch-on {
-    margin-left: 5px;
+.trending {
+    color: #43a047;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1.8px;
+}
+
+.fishnet-chair {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    padding-left: 8px;
+}
+
+.switch-text-chair {
+    width: 466px;
+    font-size: 14px;
+    color: #6c6c6c;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 22px;
+}
+
+.order-button {
+    margin-top: 32px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    height: 45px;
+    width: 212px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.order-button-text {
+    text-align: center;
+    padding: 12px 22px 12px 31px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.order-button-button {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+    letter-spacing: 3px;
+}
+
+.order-button:hover {
+    box-shadow: 0 5px 10px 1px rgba(33, 33, 33, 0.35);
+}
+
+.box-witch-wrapper {
+    height: 80px;
+}
+
+.switch-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .switch-button {
@@ -22,12 +88,129 @@
     height: 30px;
     border-radius: 50%;
     background-color: #c7c7c7;
+    margin: 19px 5px;
+}
+
+.switch-button:focus,
+.switch-button:active{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #212121;
+}
+
+.featured-new-wrapper {
+    padding: 120px 98px;
+}
+
+.box-featured-new-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+}
+
+.select_featured-new {
+    height: 58px;
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0 15px 19px 19px;
+    border-bottom: 1px solid #6c6c6c;
 
 }
 
-.switch-on {
-    width: 40px;
-    height: 40px;
+.select_featured-new:hover {
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+    color: #212121;
+}
+
+.explore-all {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+}
+
+.explore-all:hover {
+    font-weight: bolder;
+    color: #212121;
+    font-size: 20px;
+}
+
+.chairs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.product {
+    height: 270px;
+    width: 270px;
+    position: relative;
+}
+
+.product-text {
+    display: none;
+    background-color: rgba(255, 255, 255, .5);
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 32px;
+}
+
+.product:hover .product-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-button {
+    height: 48px;
+    width: 48px;
     border-radius: 50%;
-    background-color: #212121;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.product-heading {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    margin: 20px 0;
+}
+
+.product-desc {
+    text-align: center;
+}
+
+.exclusive {
+    display: flex;
+    justify-content: center;
+}
+
+.exclusive-product-red {
+}
+
+.exclusive-product-brown {
+
 }
